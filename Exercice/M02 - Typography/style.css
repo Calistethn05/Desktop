@@ -63,3 +63,28 @@ h3 {
 .footer {
     border-bottom: 1px solid black;
 }
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: justify;
+}
+
+blockquote cite {
+    font-size: 0.8em; /* 14px */
+    /* font-style: normal; */
+    text-align: right;
+}
+
+blockquote p::before {
+    content: "\00AB  ";
+}
+
+blockquote p::after {
+    content: "\00BB  ";
+}
+/* Quotes */
+/* q {
+    font-style: italic;
+    quotes: "\00AB  " "  \00BB";
+} */
