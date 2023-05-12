@@ -1,0 +1,183 @@
+/*****************************************************************
+CONTAINER
+******************************************************************/
+body {
+font-family: Nunito;
+font-size: 18px;
+}
+/*****************************************************************
+HEADER
+******************************************************************/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header > div > a {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    text-decoration: none;
+    color: white;
+    font-family: "Fjalla One";
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00748D;
+    background-image: url(../instructions/images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+header > article {
+    background-image: url(../instructions/images/bg-header.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    padding-block: 10rem;
+    margin-inline: auto;
+
+}
+
+header > article > h1 {
+    color: #fff;
+    font-family: "Fjalla One";
+    background-color: #CB8606;
+    padding: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: 30px;
+}
+
+header > article >  p {
+    color: #00748D;
+    background-color: #fff;
+    display: inline-block;
+    padding: .5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 150px;
+    font-family: "Fjalla One";
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-size: 20px;
+}
+
+/*****************************************************************
+MAIN
+******************************************************************/
+h2 {
+    text-align: center;
+    color: #00748D;
+    font-size: 25px;
+    margin-block: 3rem;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+span {
+    font-family: "Fjalla One";
+    font-size: 20px;
+}
+
+.presti i {
+    background-color: #CB8606;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.presti > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presti {
+    display: flex;
+    gap: 20px;
+    width: 1500px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    justify-content: space-between;
+}
+
+.presti a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00748D;
+    padding: .5rem 5rem;
+    margin-inline: auto;
+    display: block;
+}
+
+article > img {
+    border: 3px solid #00748D;
+}
+
+
+
+/*****************************************************************
+FOOTER
+******************************************************************/
+.footer .aside {
+    background-color: #00748D;
+    margin-top: 5rem;
+    padding-block: 1.5rem;
+    background-image: url(../instructions/images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.awesome i {
+    color: #fff;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.aside > div {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin-inline: auto;
+}
+
+.aside a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Nunito;
+}
+
+.end {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding-block: 2rem;
+}
+/*****************************************************************
+CONTAINER
+******************************************************************/
+/*****************************************************************
+CONTAINER
+******************************************************************/
