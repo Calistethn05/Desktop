@@ -1,0 +1,165 @@
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+IMPORTATION
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+@import url(./font-face.css);
+@import url(./exportation/slick/slick-theme.css);
+@import url(./exportation/slick/slick.css);
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+RESET
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.wrapper {
+    max-width: 1400px;
+    font-family: Athiti;
+    font-size: 1.125rem;
+    margin-inline: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Merienda;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.parent {
+    position: relative;
+}
+
+.slick-prev {
+    left: .7rem;
+    z-index: 2;
+}
+
+.slick-next {
+    right: .7rem;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+HEADER
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.header span {
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header span::before,
+.header span::after,
+h1::before,
+h1::after,
+h2::before,
+h2::after,
+h3::before,
+h3::after {
+    content: " \f005 ";
+    font-family: "Font Awesome 5 Free";
+    color: #950000;
+    font-size: 1rem;
+}
+
+.header>a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header img {
+    width: 10rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li a {
+    padding: .5rem 1rem;
+    background-color: #ebe3db;
+    margin-inline: 2rem;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.header ul a:hover {
+    background-color: #4c4343;
+    color: #fff;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    MAIN
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.restaurant {
+    margin-block: 2rem;
+}
+
+.restaurant img {
+    width: 30%;
+    float: right;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.menu article {
+    background-color: #ebe3db;
+    padding-bottom: 2rem;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu article li {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px dashed #4c4343;
+}
+
+.menu li::before {
+    content: "\f005  ";
+    font-family: "Font Awesome 5 Free";
+    color: #950000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.menu article a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background-color: #4c4343;
+    color: #fff;
+    text-align: center;
+    margin-inline: 2rem;
+}
+
+.menu article a img {
+    width: 2rem;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+        FOOTER
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/

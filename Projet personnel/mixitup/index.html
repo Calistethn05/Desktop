@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup</title>
+
+    <!-- Intégration du jQuery -->
+    <script src="../slick/jQuery/jquery-3.7.0.min.js"></script>
+    <!-- Intégration du plugin Mixitup -->
+    <script src="./mixitup-3/dist/mixitup.min.js"></script>
+    <!-- Intégration du css personnalisé -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mixitup</h1>
+    <p>Le plugin <strong>Mixitup</strong> est une bibliothèque Javascript populaire utiliséé pour créer des filtrages et des animations de tri pour les éléments d'une page web. Il offre une solution flexible pour organiser, trier et filtrer des contenus tels que des images, vidéos, des articles de blog, des produits, etc.</p>
+    
+    <button data-filter="all">Tous</button>
+    <button data-filter=".green">Green</button>
+    <button data-filter=".blue">Blue</button>
+    <button data-filter=".red">Red</button>
+
+    <div class="parent">
+        <div class="mix item blue"><img src="images/abstract1-grand.jpg" alt=""></div>
+        <div class="mix item green"><img src="images/abstract2-grand.jpg" alt=""></div>
+        <div class="mix item red"><img src="images/nature1-grand.jpg" alt=""></div>
+        <div class="mix item green"><img src="images/nature2-grand.jpg" alt=""></div>
+        <div class="mix item blue"><img src="images/nature3-grand.jpg" alt=""></div>
+        <div class="mix item red"><img src="images/tech1-grand.jpg" alt=""></div>
+        <div class="mix item blue"><img src="images/tech2-grand.jpg" alt=""></div>
+        <div class="mix item red"><img src="images/tech3-grand.jpg" alt=""></div>
+        <div class="mix item green"><img src="images/abstract1-grand.jpg" alt=""></div>
+    </div>
+
+    <!-- Script personnalisé -->
+    <script>
+        let mixer = mixitup(".parent");
+    </script>
+</body>
+</html>

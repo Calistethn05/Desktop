@@ -1,0 +1,94 @@
+/***************************
+RESET
+****************************/
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 18px;
+    background-color: #ededed;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/***************************
+TYPOGRAPHIE
+****************************/
+h1,
+h2,
+h3,
+nav,
+.logo {
+    font-family: "Fjalla One", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    color: #00748D;
+}
+
+h2::after,
+h2::before {
+    content: "-";
+    padding-inline: .5rem;
+    color: #CB8606;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h3::before {
+    font-family: "Font Awesome 5 Free";
+    background-color: #CB8606;
+    color: #fff;
+    padding: 1rem 1rem;
+    width: fit-content;
+}
+
+.prestations article:nth-of-type(1) h3::before {
+    content: "\f02d";
+}
+.prestations article:nth-of-type(2) h3::before {
+    content: "\f07a";
+}
+.prestations article:nth-of-type(3) h3::before {
+    content: "\f00c";
+}
+.prestations article:nth-of-type(4) h3::before {
+    content: "\f084";
+}
+/***************************
+CLASSES UTILITAIRES
+****************************/
+.wrapper {
+    max-width: 1500px;
+    margin-inline: auto;
+}
+/***************************
+TYPOGRAPHIE
+****************************/
+

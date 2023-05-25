@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick</title>
+    <!-- Intégration du css de slick slider -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <style>
+        .item {
+            font-size: 2rem;
+            font-weight: bold;
+            border: 1px solid lightgray;
+            text-align: center;
+            padding-block: 1rem;
+        }
+
+        .parent {
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .slick-prev { left: .7rem;}
+        .slick-next { right: .7rem;}
+    </style>
+</head>
+<body>
+    <h1>Slick Slider</h1>
+
+    <div class="parent">
+        <div class="item"><img src="images/hollywood1.jpg" alt=""></div>
+        <div class="item"><img src="images/hollywood2.jpg" alt=""></div>
+        <div class="item"><img src="images/hollywood3.jpg" alt=""></div>
+        <div class="item"><img src="images/hollywood4.jpg" alt=""></div>
+        <div class="item"><img src="images/hollywood5.jpg" alt=""></div>
+        <div class="item"><img src="images/hollywood6.jpg" alt=""></div>
+    </div>
+
+
+    <!-- Intégration du jQuery -->
+    <script src="jQuery/jquery-3.7.0.min.js"></script>
+    <!-- Intégration du Slick Slider -->
+    <script src="slick/slick.min.js"></script>
+    <!-- Charger le plugin sur le parent -->
+    <script>
+        $(document).ready(function () {
+            $(".parent").slick({
+                slidesToShow: 3,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 1000,
+
+            });
+        });
+    </script>
+</body>
+</html>
