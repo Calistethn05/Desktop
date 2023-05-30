@@ -49,14 +49,14 @@ MAIN
         display: flex;
         flex-direction: column;
     }
-
-    /* .position .text {
-        padding: 8rem;
+    
+    .container .position {
+        padding: 1rem;
     }
-
-    .text h4 {
-        font-size: 3rem;
-    } */
+    
+    .container .position .text img {
+        width: 2rem;
+    }
 
 
 /*========================================

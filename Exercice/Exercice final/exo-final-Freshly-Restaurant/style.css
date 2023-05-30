@@ -203,7 +203,7 @@ SURVOL IMAGE
     text-align: center;
     display: block;
     position: relative;
-    translate: all .5s;
+    translate: all 1s;
 }
 
 .hover > img {
@@ -219,7 +219,7 @@ SURVOL IMAGE
     position: absolute;
     top: 0;
     opacity: 0;
-    transition: all .5s;
+    transition: all 1s;
     overflow: hidden;
 }
 
@@ -355,7 +355,8 @@ button:hover {
 }
 
 .text img {
-    width: 2rem;
+    width: 5rem;
+    margin: 1rem;
 }
 
 .text p {

@@ -68,6 +68,14 @@ MAIN
     margin: 1rem .5rem;
 }
 
+.main .container .position {
+    padding: .5rem;
+}
+
+.main .container .position .text img {
+    width: 2rem;
+}
+
 /*****************************************
 FOOTER
 ******************************************/
